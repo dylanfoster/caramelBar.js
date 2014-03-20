@@ -1,24 +1,24 @@
 (function($){
     $.fn.caramelBar = function(options){
+        
+        
         var settings = {
           "top" : 0,
           "left" : 0,
           "right" : 0,
-          "width" : "100%",
-          "height" : "100%",
-          "spacing" : 0
+          "width" : "auto",
+          "height":"auto"
         };
-        
         if(options){$.extend(settings, options); }
             
         return this.each(function(){
-      var $this = $(this),
+     var $this = $(this),
               pos = $this.css('position'),
               ogl = $this.css('left') && $this.css('marginLeft'),
               ogt = $this.css('top') && $this.css('marginTop'),
               ogr = $this.css('right') && $this.css('marginRight'),
-              ogw = $this.css('width'),
               ogh = $this.css('height'),
+              ogw = $this.css('width'),
               ul = $this.find('ul'),
               li = ul.children('li'),
               ulh = ul.css('height'),
@@ -40,20 +40,29 @@
                        "right" : settings.right
                    });
                    
-                   if(settings.width && settings.height){
+                   if((settings.width && settings.height) !== "auto"){
                        $this.css({
                            "width" : settings.width,
                        "height" : settings.height
                        });
                        
                        ul.css({
-                           'height': '100%',
-                            'width': '100%'
+                          "width" : settings.width,
+                       "height" : settings.height
                         });
                        li.css({
-                           'width': '100%',
+                            "width" : settings.width,
                             'marginTop': settings.spacing
                         });
+                   }else{
+                       ul.css({
+                           'height': ulh,
+                           'width':ulw
+                       });
+                       li.css({
+                           'height':lih,
+                           'width':liw
+                       });
                    }
                    
                 }else{
