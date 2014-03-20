@@ -1,0 +1,33 @@
+{
+	"name": "jQuery.caramelBar.js",
+	"title": "jQuery.caramelBar.js",
+	"description": "caramelBar.js is a lightweight sticky navbar jQuery plugin",
+	"keywords": [
+		"stickynav",
+		"jQuery",
+		"stick nav",
+		"navigation",
+		"sticky",
+		"sticky navbar"
+	],
+	"version": "v0.1",
+	"author": {
+		"name": "Dylan Foster",
+		"email": "dylan947@gmail.com",
+		"url": "http://www.dylan-foster.com"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://github.com/jquery/jquery-color/blob/2.1.2/MIT-LICENSE.txt"
+		}
+	],
+	"homepage": "http://www.dylan-foster.com/caramelBar",
+	"docs": "http://www.dylan-foster.com/caramelBar/#docs",
+	"download": "https://github.com/dylan947/caramelBar.js",
+	"dependencies": {
+		"jquery": ">=1.6"
+	}
+}
+
+
