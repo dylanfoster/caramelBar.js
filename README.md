@@ -8,7 +8,7 @@ Include the latest jQuery Library as well as caramelBar.js just before your clos
 
 ```html
 <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-<script src="/js/caramelBar.js"></script>
+<script src="/js/caramelBar.min.js"></script>
 ```
 ##2. HTML Markup
 
