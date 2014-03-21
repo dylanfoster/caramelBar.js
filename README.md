@@ -62,8 +62,8 @@ $('#header_wrapper').caramelBar({
 	"top":0,                           //set the top margin of the navigation bar
 	"left":0,						   //set the left margin of the navigation bar
 	"right":0,                         //set the right margin of the navigation bar
-	"width":"100%", 				   //set the width of the navigation bar (must set height and width together)
-	"height":"100%",				   //set the height of the navigation bar(must set height and width together)
+	"width":"200px", 				   //set the width of the navigation bar (must set height and width together)
+	"height":"400px",				   //set the height of the navigation bar(must set height and width together)
 	"spacing": 0					   //used with height/width, sets the spacing between li elements
 });
 ```
