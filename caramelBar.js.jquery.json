@@ -1,7 +1,7 @@
 {
 	"name": "caramelBar.js",
 	"title": "caramelBar.js",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "caramelBar.js is a lightweight sticky navbar jQuery plugin",
 	"keywords": [
 		"stickynav",
@@ -24,6 +24,7 @@
 			"url": "https://github.com/jquery/jquery-color/blob/2.1.2/MIT-LICENSE.txt"
 		}
 	],
+	"bugs": "https://github.com/dylan947/caramelBar.js/issues",
 	"homepage": "http://www.dylan-foster.com/caramelBar",
 	"docs": "http://www.dylan-foster.com/caramelBar/#docs",
 	"download": "https://github.com/dylan947/caramelBar.js",
