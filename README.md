@@ -15,10 +15,10 @@ Include the latest jQuery Library as well as caramelBar.js just before your clos
 ```html
 <section id="header_wrapper">
 	<ul class="menu_wrapper">
-		<li class="menu_link"><a href=""></li>
-		<li class="menu_link"><a href=""></li>
-		<li class="menu_link"><a href=""></li>
-		<li class="menu_link"><a href=""></li>
+		<li class="menu_link"><a href=""></a></li>
+		<li class="menu_link"><a href=""></a></li>
+		<li class="menu_link"><a href=""></a></li>
+		<li class="menu_link"><a href=""></a></li>
 	</ul>
 </section>
 ```

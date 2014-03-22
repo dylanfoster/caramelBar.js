@@ -1,16 +1,18 @@
 {
-	"name": "jQuery.caramelBar.js",
+	"name": "caramelBar.js",
 	"title": "jQuery.caramelBar.js",
+	"version": "1.0.0",
 	"description": "caramelBar.js is a lightweight sticky navbar jQuery plugin",
 	"keywords": [
 		"stickynav",
 		"jQuery",
-		"stick nav",
+		"sticky",
+		"nav",
 		"navigation",
 		"sticky",
-		"sticky navbar"
+		"sticky",
+		"navbar"
 	],
-	"version": "v0.1",
 	"author": {
 		"name": "Dylan Foster",
 		"email": "dylan947@gmail.com",
