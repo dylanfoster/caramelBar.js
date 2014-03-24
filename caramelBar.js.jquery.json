@@ -1,7 +1,7 @@
 {
 	"name": "caramelBar.js",
 	"title": "caramelBar.js",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "caramelBar.js is a lightweight sticky navbar jQuery plugin",
 	"keywords": [
 		"stickynav",

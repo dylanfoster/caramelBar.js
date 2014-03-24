@@ -37,34 +37,33 @@
                        "position" : "fixed",
                        "top" : settings.top,
                        "left" : settings.left,
-                       "right" : settings.right
+                       "right" : settings.right,
+					   "z-index" : 9999
                    });
                    
-                   if((settings.width && settings.height) !== "auto"){
-                       $this.css({
-                           "width" : settings.width,
-                       "height" : settings.height
-                       });
-                       
-                       ul.css({
-                          "width" : settings.width,
-                       "height" : settings.height
-                        });
-                       li.css({
-                            "width" : settings.width,
-                            'marginTop': settings.spacing
-                        });
-                   }else{
-                       ul.css({
-                           'height': ulh,
-                           'width':ulw
-                       });
-                       li.css({
-                           'height':lih,
-                           'width':liw
-                       });
-                   }
-                   
+
+					if((settings.width && settings.height) === "auto"){
+						ul.css({
+							"width": ulw,
+							"height": "auto"
+						});
+					}else{
+						$this.css({
+	                           "width" : settings.width,
+	                       "height" : settings.height
+	                       });
+
+	                       ul.css({
+	                          "width" : settings.width,
+	                       "height" : settings.height
+	                        });
+	                       li.css({
+	                            "width" : settings.width,
+	                            'marginTop': settings.spacing
+	                        });
+					}
+
+                
                 }else{
                     
                   $this.css({
